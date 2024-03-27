@@ -1,0 +1,12 @@
+{
+  "name": "nonautem",
+  "devDependencies": {
+    "lerna": "^3.10.5"
+  },
+  "author": "LaurianeKris",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaynaOberbrunner/nonautem.git"
+  },
+  "version": "1.0.0"
+}

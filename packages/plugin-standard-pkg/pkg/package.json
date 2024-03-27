@@ -1,0 +1,26 @@
+{
+  "name": "@pika/plugin-standard-pkg",
+  "version": "0.2.8",
+  "pika": true,
+  "keywords": [
+    "pika-pkg"
+  ],
+  "files": [
+    "dist-*/",
+    "assets/",
+    "bin/"
+  ],
+  "sideEffects": false,
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@pika/babel-plugin-esm-import-rewrite": "^0.2.8",
+    "@types/node": "^10.12.18",
+    "mkdirp": "^0.5.1",
+    "standard-pkg": "^0.2.0"
+  },
+  "source": "dist-src/index.js",
+  "main": "dist-node/index.js"
+}
